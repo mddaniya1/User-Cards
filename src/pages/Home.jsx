@@ -1,5 +1,5 @@
 import React from "react";
-import { userData } from "../utils/userData";
+import { userData } from "../utils/constant/userData";
 import Card from "../components/common/Card";
 
 const Home = () => {
@@ -9,6 +9,7 @@ const Home = () => {
         {userData.map((item, index) => {
           return <Card key={index} data={item} />;
         })}
+
       </div>
     </>
   );
