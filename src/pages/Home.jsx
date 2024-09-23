@@ -1,4 +1,4 @@
-import React from "react";
+
 import { userData } from "../utils/constant/userData";
 import Card from "../components/common/Card";
 

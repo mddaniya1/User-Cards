@@ -1,6 +1,46 @@
 
 
 export const userData = [
+ {
+    name: "Emeka Uzo",
+    profession: "Software Engineer",
+    description:
+      "Dedicated software engineer with a focus on backend development Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro exercitationem soluta necessitatibus esse quos repudiandae nobis assumenda commodi repellat, facilis, iste pariatur optio praesentium qui sequi beatae consequatur totam ipsum.Similique magnam facere corrupti asperiores? Quam fuga nemo inventore quisquam temporibus tempora saepe dolorum ut dignissimos accusamus voluptate hic aut beatae, id fugiat recusandae facere soluta tempore ducimus ea. Assumenda.",
+    background:
+      "https://images.pexels.com/photos/3184297/pexels-photo-3184297.jpeg",
+    profileImage:
+      "https://images.unsplash.com/photo-1726497865915-e2e97f5b900b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwzMHx8fGVufDB8fHx8fA%3D%3D",
+    profileLink: "https://facebook.com/emeka.uzo",
+    id: 5,
+  },
+
+ {
+    name: "Adaobi Chukwu",
+    profession: "Mobile App Developer",
+    description:
+      "Enthusiastic mobile app developer with experience in cross-platform apps Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro exercitationem soluta necessitatibus esse quos repudiandae nobis assumenda commodi repellat, facilis, iste pariatur optio praesentium qui sequi beatae consequatur totam ipsum.Similique magnam facere corrupti asperiores? Quam fuga nemo inventore quisquam temporibus tempora saepe dolorum ut dignissimos accusamus voluptate hic aut beatae, id fugiat recusandae facere soluta tempore ducimus ea. Assumenda.",
+    background:
+      "https://images.pexels.com/photos/3184301/pexels-photo-3184301.jpeg",
+    profileImage:
+      "https://images.pexels.com/photos/1644767/pexels-photo-1644767.jpeg?w=150&h=150",
+    profileLink: "https://facebook.com/adaobi.chukwu",
+    id: 10,
+  },
+
+ {
+    name: "David Okeke",
+    profession: "Web Developer",
+    description:
+      "Skilled web developer specializing in front-end technologies Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro exercitationem soluta necessitatibus esse quos repudiandae nobis assumenda commodi repellat, facilis, iste pariatur optio praesentium qui sequi beatae consequatur totam ipsum.Similique magnam facere corrupti asperiores? Quam fuga nemo inventore quisquam temporibus tempora saepe dolorum ut dignissimos accusamus voluptate hic aut beatae, id fugiat recusandae facere soluta tempore ducimus ea. Assumenda.",
+    background:
+      "https://images.pexels.com/photos/1001647/pexels-photo-1001647.jpeg",
+    profileImage:
+      "https://ix-www.imgix.net/case-study/unsplash/unsplash-screen03.png?ixlib=js-3.8.0&auto=compress%2Cformat&w=1678",
+    profileLink: "https://facebook.com/david.okeke",
+    id: 3,
+  },
+
+
   {
     name: "Chisom Chukwukwe",
     profession: "UI/UX Designer",
@@ -25,18 +65,7 @@ export const userData = [
     profileLink: "https://facebook.com/amara.nwokolo",
     id: 2,
   },
-  {
-    name: "David Okeke",
-    profession: "Web Developer",
-    description:
-      "Skilled web developer specializing in front-end technologies Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro exercitationem soluta necessitatibus esse quos repudiandae nobis assumenda commodi repellat, facilis, iste pariatur optio praesentium qui sequi beatae consequatur totam ipsum.Similique magnam facere corrupti asperiores? Quam fuga nemo inventore quisquam temporibus tempora saepe dolorum ut dignissimos accusamus voluptate hic aut beatae, id fugiat recusandae facere soluta tempore ducimus ea. Assumenda.",
-    background:
-      "https://images.pexels.com/photos/1001647/pexels-photo-1001647.jpeg",
-    profileImage:
-      "https://ix-www.imgix.net/case-study/unsplash/unsplash-screen03.png?ixlib=js-3.8.0&auto=compress%2Cformat&w=1678",
-    profileLink: "https://facebook.com/david.okeke",
-    id: 3,
-  },
+ 
   {
     name: "Ngozi Obi",
     profession: "Product Manager",
@@ -49,18 +78,7 @@ export const userData = [
     profileLink: "https://facebook.com/ngozi.obi",
     id: 4,
   },
-  {
-    name: "Emeka Uzo",
-    profession: "Software Engineer",
-    description:
-      "Dedicated software engineer with a focus on backend development Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro exercitationem soluta necessitatibus esse quos repudiandae nobis assumenda commodi repellat, facilis, iste pariatur optio praesentium qui sequi beatae consequatur totam ipsum.Similique magnam facere corrupti asperiores? Quam fuga nemo inventore quisquam temporibus tempora saepe dolorum ut dignissimos accusamus voluptate hic aut beatae, id fugiat recusandae facere soluta tempore ducimus ea. Assumenda.",
-    background:
-      "https://images.pexels.com/photos/3184297/pexels-photo-3184297.jpeg",
-    profileImage:
-      "https://images.unsplash.com/photo-1726497865915-e2e97f5b900b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwzMHx8fGVufDB8fHx8fA%3D%3D",
-    profileLink: "https://facebook.com/emeka.uzo",
-    id: 5,
-  },
+ 
   {
     name: "Kemi Adebayo",
     profession: "Data Analyst",
@@ -109,15 +127,16 @@ export const userData = [
     id: 9,
   },
   {
-    name: "Adaobi Chukwu",
-    profession: "Mobile App Developer",
+    name: "Tunde Ogunleye",
+    profession: "SEO Specialist",
     description:
-      "Enthusiastic mobile app developer with experience in cross-platform apps Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro exercitationem soluta necessitatibus esse quos repudiandae nobis assumenda commodi repellat, facilis, iste pariatur optio praesentium qui sequi beatae consequatur totam ipsum.Similique magnam facere corrupti asperiores? Quam fuga nemo inventore quisquam temporibus tempora saepe dolorum ut dignissimos accusamus voluptate hic aut beatae, id fugiat recusandae facere soluta tempore ducimus ea. Assumenda.",
+      "Results-driven SEO specialist helping brands improve their online visibility Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro exercitationem soluta necessitatibus esse quos repudiandae nobis assumenda commodi repellat, facilis, iste pariatur optio praesentium qui sequi beatae consequatur totam ipsum.Similique magnam facere corrupti asperiores? Quam fuga nemo inventore quisquam temporibus tempora saepe dolorum ut dignissimos accusamus voluptate hic aut beatae, id fugiat recusandae facere soluta tempore ducimus ea. Assumenda.",
     background:
-      "https://images.pexels.com/photos/3184301/pexels-photo-3184301.jpeg",
+      "https://images.pexels.com/photos/3184298/pexels-photo-3184298.jpeg",
     profileImage:
-      "https://images.pexels.com/photos/1644767/pexels-photo-1644767.jpeg?w=150&h=150",
-    profileLink: "https://facebook.com/adaobi.chukwu",
-    id: 10,
+      "https://ix-www.imgix.net/case-study/unsplash/unsplash-screen01.png?ixlib=js-3.8.0&auto=compress%2Cformat&w=1678",
+    profileLink: "https://facebook.com/tunde.ogunleye",
+    id: 9,
   },
+ 
 ];

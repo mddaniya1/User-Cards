@@ -1,5 +1,5 @@
-import { FaInstagram, FaTwitter, FaLinkedin, FaFacebook } from "react-icons/fa";
-import { FaYoutube } from "react-icons/fa6";
+import { FaInstagram, FaTwitter, FaLinkedin, FaFacebook, FaDiscord } from "react-icons/fa";
+// import { FaDiscord } from "react-icons/fa6";
 import { useNavigate } from "react-router";
 
 const Card = ({ data }) => {
@@ -15,7 +15,7 @@ const Card = ({ data }) => {
   } = data;
 
   return (
-    <div className="w-[300px] shadow-[0px_3px_8px_rgba(0,0,0,0.24)] rounded-[15px] font-primaryFont pb-5">
+    <div className="w-[300px] shadow-[0px_3px_8px_rgba(0,0,0,0.24)] rounded-[20px] font-primaryFont pb-5">
       <div className="relative">
         <div className="h-28 object-cover  ">
           <img
@@ -29,28 +29,30 @@ const Card = ({ data }) => {
         </div>
       </div>
       <div className="mt-[60px] p-2 ">
-        <h1 className="text-center text-[24px] font-[500] text-blackClr">
+        <h1 className="text-center text-[25px] font-[500] text-whiteClr">
           {name}
         </h1>
-        <p className=" mt-3 text-center text-primaryClr font-[400]">
+        <p className=" mt-3 text-center text-purple font-[400]">
           {profession}
         </p>
-        <p className=" text-pretty text-center font-[400] mt-2 text-blackClr text-[14px]">
+        <p className=" text-pretty text-center font-[400] mt-2 text-grayClr text-[14px]">
           {description.slice(0,60)+ "..."}
         </p>
       </div>
 
       <div className=" mt-4 flex gap-5 text-grayClr text-[20px] justify-center">
-        <FaFacebook className=" hover:text-primaryClr " />
-        <FaLinkedin className=" hover:text-primaryClr " />
-        <FaInstagram className=" hover:text-primaryClr " />
-        <FaYoutube className=" hover:text-primaryClr " />
-        <FaTwitter className=" hover:text-primaryClr " />
+    
+         <FaInstagram className=" hover:text-purple " />
+        <FaFacebook className=" hover:text-purple " />
+        <FaLinkedin className=" hover:text-purple " />
+        <FaDiscord className=" hover:text-purple " />
+        <FaTwitter className=" hover:text-purple " />
+        
       </div>
       <div className="flex justify-center">
         <button
           onClick={() => navigate(`/profile/${id}`)}
-          className="bg-primaryClr w-[80%] text-[#fff]  py-2 mt-4 text-white font-normal rounded-md"
+          className="bg-purple w-[80%] text-[#ffffff]  py-1 mt-4 text-white font-normal rounded-md"
         >
           View Profile
         </button>

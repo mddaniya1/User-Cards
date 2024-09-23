@@ -5,7 +5,7 @@ import {
   FaInstagram,
   FaLinkedin,
   FaTwitter,
-  FaYoutube,
+  FaDiscord,
 } from "react-icons/fa";
 
 const ProfileDetails = () => {
@@ -31,19 +31,19 @@ const ProfileDetails = () => {
       </div>
 
       <div className="pr-20">
-        <h1 className="text-7xl text-blackClr mb-6">{name}</h1>
-        <p className="text-4xl text-primaryClr mb-8">{profession}</p>
-        <p className="text-[20px] text-blackClr mb-8 text-balance w-[800px]">
+        <h1 className="text-7xl text-purple mb-6">{name}</h1>
+        <p className="text-4xl text-grayClr mb-8">{profession}</p>
+        <p className="text-[20px] text-grayClr mb-8 text-balance w-[800px]">
           {description}
         </p>
-        <div className=" mt-4 flex gap-8 text-grayClr text-[30px] ">
-          <FaFacebook className=" hover:text-primaryClr " />
-          <FaLinkedin className=" hover:text-primaryClr " />
-          <FaInstagram className=" hover:text-primaryClr " />
-          <FaYoutube className=" hover:text-primaryClr " />
-          <FaTwitter className=" hover:text-primaryClr " />
+        <div className=" mt-4 flex gap-8 text-grayClr text-[25px] ">
+          <FaInstagram className=" hover:text-purple " />
+          <FaFacebook className=" hover:text-purple " />
+          <FaLinkedin className=" hover:text-purple " />
+          <FaDiscord className=" hover:text-purple " />
+          <FaTwitter className=" hover:text-purple " />
         </div>
-        <button className="bg-primaryClr px-[25px] py-2 rounded-lg text-whiteClr mt-6">
+        <button className="bg-purple px-[25px] py-2 rounded-lg text-whiteClr mt-6">
           Buy Me Coffee
         </button>
       </div>
